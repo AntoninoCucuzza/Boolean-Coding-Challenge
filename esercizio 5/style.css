@@ -1,0 +1,70 @@
+body{ /* sfondo + colore scritte*/
+    background-image:url(immagini/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+
+.container{ /*backgrond */
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 100px;
+    border-radius: 10px;
+    width: 55%;
+    margin: auto ;
+    margin-top: 5%;
+}
+
+header{
+    text-align: center;
+}
+
+.titolo{
+    color:rgb(17, 214, 50);
+    font-size: 40px;
+    margin: auto;
+}
+
+#Logo{
+    width: 300px;
+}
+
+.menu{
+    background-color: rgb(17, 214, 50);
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}  
+
+main > h3{ /*selettori avanzati ho provato ad usarli nel modo migliore ma probabilemente si poteva fare di meglio */
+    display: inline-block;
+    font-size:  32px;
+    margin: auto;
+}
+
+main > p{
+    font-size: 20px;
+    margin: auto;
+}
+
+ main > div{ 
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+ }
+
+.loading-1{
+    width: 30%;
+    background-color: orange;
+ }
+
+ .loading-2{
+    width: 60%;
+    background-color:rgb(17, 214, 50) ;
+ }
+
+ .loading-3{
+    width: 15%;
+    background-color:red;
+ }
